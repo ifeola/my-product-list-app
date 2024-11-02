@@ -1,0 +1,40 @@
+.counter {
+  width: min(64%, 12rem);
+  height: 2.5rem;
+  padding: 0.5rem;
+
+  color: var(--Rose-50);
+  border: 1px solid var(--Red);
+  border-radius: 100vw;
+  background-color: var(--Red);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.counter__btn {
+  width: 1.2rem;
+  height: 1.2rem;
+  padding: 0.25rem;
+
+  display: flex;
+  justify-items: center;
+  align-items: center;
+
+  border-radius: 100vw;
+  border: 1px solid var(--Rose-50);
+
+  svg {
+    width: 0.875rem;
+    fill: var(--Rose-50);
+  }
+}
+
+.counter__btn:hover {
+  background-color: var(--Rose-50);
+
+  svg {
+    fill: var(--Red);
+  }
+}

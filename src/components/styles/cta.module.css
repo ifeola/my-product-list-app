@@ -1,0 +1,9 @@
+.cta {
+  width: 100%;
+  background-color: var(--Red);
+  padding-block: 1rem;
+  border-radius: 100vw;
+  color: var(--Rose-50);
+  font-size: 1rem;
+  font-weight: 600;
+}

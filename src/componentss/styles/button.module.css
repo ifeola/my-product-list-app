@@ -1,0 +1,13 @@
+.btn {
+  height: 2.5rem;
+  width: min(64%, 12rem);
+  
+  border: 1px solid var(--Red);
+  border-radius: 100vw;
+  background-color: var(--Rose-50);
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
